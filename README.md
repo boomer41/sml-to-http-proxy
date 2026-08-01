@@ -121,7 +121,7 @@ Thing http:url:smlToHttp "SML to HTTP" [
 ## License
 
     SML to HTTP proxy
-    Copyright (C) 2023  Stephan Brunner
+    Copyright (C) 2026  Stephan Brunner
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
