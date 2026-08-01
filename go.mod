@@ -1,9 +1,9 @@
 module sml-to-http
 
-go 1.19
+go 1.25.0
 
 require (
-	github.com/sigurn/crc16 v0.0.0-20211026045750-20ab5afb07e3
-	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
+	github.com/sigurn/crc16 v0.0.0-20240131213347-83fcde1e29d1
+	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743
 	gopkg.in/yaml.v3 v3.0.1
 )
