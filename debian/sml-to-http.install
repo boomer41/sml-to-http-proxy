@@ -1,4 +1,0 @@
-#!/usr/bin/dh-exec
-
-contrib/default-config.yml => etc/sml-to-http/config.yml
-

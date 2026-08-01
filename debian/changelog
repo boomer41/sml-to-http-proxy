@@ -1,5 +1,0 @@
-sml-to-http (1.0.0) main; urgency=medium
-
-  * Initial Debian package.
-
- -- Stephan Brunner <s.brunner@stephan-brunner.net>  Thu, 31 Oct 2024 18:29:19 +0100
