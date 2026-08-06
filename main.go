@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"sml-to-http/sml"
+	"github.com/boomer41/sml-to-http-proxy/sml"
 
 	"gopkg.in/yaml.v3"
 )

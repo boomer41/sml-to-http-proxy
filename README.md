@@ -40,7 +40,7 @@ meters:
 Then start the application:
 
 ```shell
-./sml-to-http -config config.yml
+./sml-to-http-proxy -config config.yml
 ```
 
 The log should now yield that the connection is successful and that SML frames are being decoded.
@@ -97,7 +97,7 @@ It will dump every *valid* SML message in the file.
 Invalid messages (e.g. CRC does not match or invalid structure) are ignored.
 
 ```shell
-./sml-to-http -dump <file>
+./sml-to-http-proxy -dump <file>
 ```
 
 ## Integration with OpenHAB

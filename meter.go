@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net"
-	"sml-to-http/sml"
+	"github.com/boomer41/sml-to-http-proxy/sml"
 	"time"
 
 	"golang.org/x/exp/constraints"

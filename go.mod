@@ -1,4 +1,4 @@
-module sml-to-http
+module github.com/boomer41/sml-to-http-proxy
 
 go 1.25.0
 
