@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM docker.io/library/golang:1.27rc2-trixie@sha256:2db0e0e18bbc0433b75a534f988865a860c7f91198c3953acf602f128cd23b6d AS build
+FROM --platform=$BUILDPLATFORM docker.io/library/golang:1.27rc3-trixie@sha256:cfe86233ee62fdd21829829d9a11a0a84db261e5c08ef179503605b7a925ddd2 AS build
 
 WORKDIR /build
 
