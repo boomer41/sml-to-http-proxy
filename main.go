@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+
 	"github.com/boomer41/sml-to-http-proxy/sml"
 
 	"gopkg.in/yaml.v3"
@@ -25,7 +26,7 @@ func main() {
 				"  This program comes with ABSOLUTELY NO WARRANTY.\n" +
 				"  This is free software, and you are welcome to redistribute it\n" +
 				"  under the terms of the GNU GPL v3; see LICENSE.txt and README.md for details.\n\n" +
-				"  The source code is available at https://github.com/boomer41/SML-to-HTTP-proxy\n\n",
+				"  The source code is available at https://github.com/boomer41/sml-to-http-proxy\n\n",
 		)
 		flag.Usage()
 		return
