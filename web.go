@@ -55,6 +55,7 @@ func (i *webExporter) getProcessImage(resp http.ResponseWriter, _ *http.Request)
 		return
 	}
 
+	resp.Header().Set("Content-Type", "application/json")
 	resp.WriteHeader(200)
 	_, _ = resp.Write(marshal)
 }
